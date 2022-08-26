@@ -1,0 +1,105 @@
+* {
+    margin: 0px;
+    text-decoration: none;
+    font-family: "Lato", sans-serif;
+}
+
+.primeira-barra-cabecalho {
+    display: flex;
+    justify-content:center;
+    background-color: rgb(78, 74, 74);
+    color: white;
+    padding: 11px;
+    font-family: "Lato", sans-serif;
+    font-size: 12;
+    font-weight: bolder;
+    letter-spacing: .05em;
+
+}
+
+.primeira-barra-cabecalho-text2{
+    color: white;
+    border: 3px solid white;
+    border-radius: 15px;
+    padding: 5px;
+    margin: -5px;
+}
+
+.segunda-barra-cabecalho {
+    display:flex;
+
+    font-family: "Lato", sans-serif;
+    font-size: 17px;
+    font-weight: bolder;
+    letter-spacing: .05em;
+}
+
+.segunda-barra-logo {
+    padding: 10px;
+    margin-left: 100px;
+}
+
+.segunda-barra-horario {
+    margin-top: 30px;
+    margin-left: 30vh;
+    margin-right: 23vh;
+    text-align: center;
+    line-height: 30px;
+    color: black;
+}
+
+.segunda-barra-horario a {
+    color: black;
+}
+
+.segunda-barra-pesquisa input {
+    height: 35%;
+    width: 200%;
+    margin-top: 70px;
+    margin-left: 20px;
+ 
+}
+
+.segunda-barra-pesquisa img, button {
+    position: relative;
+    left: 51vh;
+    bottom: 46px;
+}
+
+.segunda-barra-pesquisa button {
+    height: 35%;
+    width: 18%;
+    left: 490px;
+    background-color: blue;
+}
+
+.instagram-facebook-rabecalho {
+    padding: 10px;
+}
+
+.terceira-barra-cabecalho ul {
+    display: flex;
+    background-color: blue;
+    color: white;
+    padding: 21px;
+    justify-content: center;
+    list-style:none;
+    font-size: 17px;
+    
+}
+
+.terceira-barra-cabecalho li {
+    padding-left: 40px;
+}
+
+.orçamento-menu {
+    border: 3px solid black;
+    border-radius: 55px;
+    padding: px;
+    padding-right: 40px;
+    margin-left: 40px;
+    font-size: 20px;
+    background-color: black;
+    padding: px;
+    
+}
