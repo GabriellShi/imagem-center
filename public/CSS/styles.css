@@ -1,10 +1,10 @@
+/* Pagina Home */
+
 * {
     margin: 0;
     padding: 0;
     font-family: Helvetica, Arial, sans-serif;
-
 }
-
 
 .primeira-barra-cabecalho {
     display: flex;
@@ -18,7 +18,6 @@
     letter-spacing: .05em;
     text-decoration: none;
     text-transform: none;
-
 }
 
 .primeira-barra-cabecalho-text2{
@@ -50,25 +49,19 @@
     flex: content;
     text-align: center;   
     align-items: center;
-
 }
 
 .segunda-barra-horario a {
     color: black;
     text-decoration: none;
     display: flex;
-    justify-content: center;
-
-
-    
-    
+    justify-content: center;  
 }
 
 .terceira-parte-cabeçalho {
     flex: content;
     display: block;
-    text-align: center;
-    
+    text-align: center;  
 }
 
 .segunda-barra-pesquisa {
@@ -100,7 +93,6 @@
     list-style:none;
     font-size: 13px;
     align-items: center;
-    
 }
 
 .terceira-barra-cabecalho a {
@@ -119,8 +111,7 @@
 
     margin-left: 40px;
     font-size: 13px;
-    background-color: black;
-    
+    background-color: black;  
 }
 
 .icone-whats-absolute {
@@ -132,7 +123,6 @@
     position: fixed;
     bottom: 4%;
     right: 2%;
-
 }
 
 .container-1 {
@@ -179,7 +169,6 @@
 .container-4-esquerdo h2 {
     display: flex;
     justify-content: center;
-
 }
 
 .container-4-direito {
@@ -196,12 +185,10 @@ footer {
 
 .rodape {
     display: flex;
-
 }
 
 .rodape div {
     padding: 30px;
-
 }
 
 .rodape li {
@@ -217,6 +204,126 @@ footer {
 .mapa {
     display: flex;
     margin-left: 30px;
+}
+
+/* ----------------------------------------------------------------------------------------------------- */
+
+
+
+/* Pagina Orçamento */
+
+.header-orcamento {
+    background-color: black;
+    height: 230px;
+}
+
+.img1-orcamento {
+    background-color: aqua;
+    height: 162px;
+}
+
+.body-orcamento {
+    display: flex;
+    padding: 20px;
+}
+
+.lado-esquerdo-orcamento {
+    width: 50%;
+    padding: 20px;
+}
+
+.lado-esquerdo-orcamento h4 {
+    display: flex;
+    justify-content: center;
+    font-weight: bold
+}
+
+.imagens-lado-esquerdo-orcamento {
+    height: 600px;
+}
+
+.lado-direito-orcamento {
+    width: 50%;
+}
+
+.lado-direito-orcamento h4 {
+    display: flex;
+    justify-content: center;
+    font-weight: bold
+}
+
+.lado-direito-orcamento p {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.dados-cliente-para-orcamento {
+    text-align: center;
     
-    
+}
+
+.dados-cliente-para-orcamento input {
+    line-height: 35px;
+    width: 80%;
+    border-radius: 15px;
+    border: 1;
+    color: black;
+}
+
+.container-orcamento {
+    padding-bottom: 20px;
+}
+
+.escolha-os-servicos {
+    display: flex;
+    justify-content: center;
+}
+
+.servicos2 {
+    padding-left: 70px;
+}
+
+.servico-desejado-orcamento {
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 17px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.enviar-arquivo-orcamento {
+    text-align: center;
+    margin-top: 45px;
+    margin-bottom: 45px;
+}
+
+.descricao-detalhada-orcamento {
+    text-align: center;
+}
+
+.descricao-detalhada-orcamento input {
+    width: 400px;
+    height: 200px;
+    border-radius: 13px;
+    margin: 5px;
+    margin-bottom: 15px;
+}
+
+.botao-enviar-oracamento{ 
+    display: flex;
+    justify-content: center;
+    line-height: 40px;
+    border: 0;
+    border-radius: 10px;
+}
+
+.botao-enviar-oracamento input {
+    width: 100px;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    margin: 30px;
+
 }

@@ -1,12 +1,116 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet">
+        <link href="https://getbootstrap.com/docs/5.2/assets/css/docs.css" rel="stylesheet">
+        <title>Orçamento - Imagem Center</title>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"></script>
+        <link rel="stylesheet" href="/public/CSS/styles.css">
+    </head>
+    <header class="header-orcamento">
+
+    </header>
 <body>
+    <div class="img1-orcamento"></div>
+    <div class="body-orcamento">
+        <div class="lado-esquerdo-orcamento">
+            <h4>ATENDIMENTO PERSONALIZADO</h4>
+            <p>Para facilitar o seu dia-a-dia, você pode solicitar seu orçamento preenchendo o formulário, por telefone,
+                email ou direto aqui na loja. 
+                <br> <br>
+                Nossa loja fica na Rua Gomes de Carvalho, 1765, uma das principais ruas da
+                região com fácil acesso a zona oeste e zona sul. Estamos próximos as principais Universidades e Faculdades
+                da região e próximo a maior zona comercial de SP. 
+                <br> <br>
+                Será um imenso prazer atendê-los em nossa loja, nosso
+                atendimento é treinado para entender a sua necessidade, sugerir soluções e produzir rapidamente o que precisa.
+                <br> <br>
+                Venha conhecer a JKX Print</p>
+
+                <div class="imagens-lado-esquerdo-orcamento">
+                    <img src="/public/IMG/a.jpg" alt="" height="250px">
+                    <img src="/public/IMG/b.jpg" alt="" height="250px">
+                    <img src="/public/IMG/c.jpg" alt="" height="250px">
+                    <img src="/public/IMG/d.jpg" alt="" height="250px">
+                </div>
+        </div>
+        <div class="lado-direito-orcamento">
+            <h4>Solicite seu Orçamento</h4>
+            <p>Mais praticidade e agilidade no seu atendimento especializado, <br> venha também nos fazer uma visita e conhecer a loja.</p>
+            <section id="">
+                <form action="/orcamento" method="GET">
+                  <div class="dados-cliente-para-orcamento">
+                    <div class="container-orcamento">
+                        <input id="name" type="text" name="name" placeholder="Nome" required/>
+                    </div>
+                    <div class="container-orcamento">                   
+                        <input id="email" type="email" name="email" placeholder="E-mail" required/>
+                    </div>
+                    <div class="container-orcamento">
+                        <input id="phone" type="tel" name="phone" placeholder="Telefone"  required/>
+                    </div>
+                  </div>
+
+                  <div class="servico-desejado-orcamento"> Selecione os Serviços que deseja:</div>
+
+                  <div class="escolha-os-servicos"> 
+
+                    <div class="servicos1">
+                        <div class="tipos-de-serviços1">
+                            <label for="scales"> Impressões </label>
+                            <input type="checkbox" id="scales" name="scales" checked>
+                          </div>
+                          <div class="tipos-de-serviços1">
+                            <label for="scales"> Plotagem </label>
+                            <input type="checkbox" id="scales" name="scales" checked>
+                          </div>
+                          <div class="tipos-de-serviços1">
+                            <label for="scales"> Encadernação </label>
+                            <input type="checkbox" id="scales" name="scales" checked>
+                          </div>
+                          <div class="tipos-de-serviços1">
+                            <label for="scales"> Fotos </label>
+                            <input type="checkbox" id="scales" name="scales" checked>
+                          </div>
+                      </div>
     
+                      <div class="servicos2">
+                        <div class="tipos-de-serviços2">
+                            <label for="scales"> Copias </label>
+                            <input type="checkbox" id="scales" name="scales" checked>
+                          </div>
+                          <div class="tipos-de-serviços2">
+                            <label for="scales"> Banner </label>
+                            <input type="checkbox" id="scales" name="scales" checked>
+                          </div>
+                          <div class="tipos-de-serviços2">
+                            <label for="scales"> Plastificação </label>
+                            <input type="checkbox" id="scales" name="scales" checked>
+                          </div>
+                          <div class="tipos-de-serviços2">
+                            <label for="scales"> Digitalização </label>
+                            <input type="checkbox" id="scales" name="scales" checked>
+                          </div>
+                      </div>
+                  </div>
+
+                  <div class="enviar-arquivo-orcamento">
+                    <h5><strong>Envie seu arquivo:</strong></h5>
+                    <input type="file" value="Escolher Arquivo" />
+                  </div>
+                  <div class="descricao-detalhada-orcamento">
+                    <h5><strong>Se preferir descreva mais sobre a sua solicitação:</strong></h5>
+                    <input id="name" type="text" name="name" placeholder="" required/>
+                  </div>
+
+                  <div class="botao-enviar-oracamento"><input type="submit" value="ENVIAR" /></div>
+                  <div><p>Atendimento Especializado <br> (11) 994115609 <br> imagemcenter001@gmail.com</p></div>
+                </form>
+              </section>
+
+        </div>
+    </div>
 </body>
 </html>
