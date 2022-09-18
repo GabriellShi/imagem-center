@@ -240,6 +240,11 @@ footer {
 
 .imagens-lado-esquerdo-orcamento {
     height: 600px;
+    margin-top: 50px;
+}
+
+.imagens-lado-esquerdo-orcamento img {
+    padding: 5px;
 }
 
 .lado-direito-orcamento {
@@ -260,7 +265,6 @@ footer {
 
 .dados-cliente-para-orcamento {
     text-align: center;
-    
 }
 
 .dados-cliente-para-orcamento input {

@@ -1,12 +1,13 @@
 const express = require("express");
 const app = express();
-const port = 3000;
+const port = 3001;
 const methodOverride = require("method-override");
 const path = require("path");
 const session = require("express-session");
 const cookieParser = require("cookie-parser");
 
-
+const indexRoute = require('./src/routes/indexRoute');
+const orcamentosRoute = require('./src/routes/orcamentosRoute');
 
 // Configura o methodOverride no express
 // methodOverride = Pacote que transforma um método http em outro
@@ -39,3 +40,6 @@ app.set("views", path.join(__dirname, "src", "views"));
 app.listen(port, () => {
   console.log("Estamos rodando em: http://localhost:" + port);
 });
+
+app.use('/', indexRoute);
+app.use('/', orcamentosRoute);
