@@ -4,4 +4,5 @@ const orcamentosController = {
         return res.render("orcamento", {title: "Orçamento", user: req.cookies.user,})
     },
 };
+
 module.exports = orcamentosController;

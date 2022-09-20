@@ -331,3 +331,53 @@ footer {
     margin: 30px;
 
 }
+
+/* ------------------------------------------------------------------------------------------
+
+Pagina Copia Orçamento */
+
+.imagens-lado-esquerdo-orcamento-copia {
+    margin-bottom: 65px;
+    display: flex;
+    justify-content: center;
+}
+
+.tipos-servicos-copias {
+    line-height: 30px;
+}
+
+.lado-esquerdo-orcamento p {
+    margin: 25px;
+    text-align: justify;
+}
+
+.servicos1-copia {
+    display: flex;
+    justify-content: center;
+}
+
+.tipos-de-serviços1-tipos-de-copias {
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+}
+
+.bloco-tipo-copia-1, .bloco-tipo-copia-2 {
+    display: flex;
+    justify-content: center;
+}
+
+.tipos-de-serviços1 {
+    padding-right: 50px;
+}
+
+.tipos-de-serviços3 {
+    padding-right:66px;
+}
+
+
+/* --------------------------------------------------------------------------------------------------------
+
+
+Pagina Impressão Orçamento */
+
