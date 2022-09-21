@@ -457,3 +457,22 @@ Pagina Digitalização Orçamento */
     width: 530px;
     margin-left: 20px;
 }
+
+
+/* ------------------------------------------------------------------------------------------------------
+Pagina criação de arte */
+
+.lado-esquerdo-orcamento h6 {
+    display: flex;
+    justify-content: center;
+    
+}
+
+.tipos-de-serviços-arte1, .tipos-de-serviços-arte2, .tipos-de-serviços-arte3 {
+    display: flex;
+    justify-content: center;
+}
+
+.tipos-de-arte1, .tipos-de-arte2 {
+    margin-left: 20px;
+}
