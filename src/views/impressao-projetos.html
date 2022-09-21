@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet">
+        <link href="https://getbootstrap.com/docs/5.2/assets/css/docs.css" rel="stylesheet">
+        <title>Orçamento - Imagem Center</title>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"></script>
+        <link rel="stylesheet" href="/public/CSS/styles.css">
+    </head>
+    <header class="header-orcamento">
+
+    </header>
+<body>
+    <div class="img1-orcamento"></div>
+    <div class="body-orcamento">
+        <div class="lado-esquerdo-orcamento">
+                <div class="imagens-lado-esquerdo-orcamento-copia">
+                    <img src="/public/img/teste.jpg" alt="" height="250px">
+                </div>
+                <p>A JKX Print também possui o serviço de copiadora completa, atendemos as principais
+                   universidades, empresas e profissionais da região zona oeste e sul de São Paulo.
+                    <br> <br> Nosso atendimento é rápido e entende a sua necessidade, trabalhamos com:</p>
+        
+      </div>  
+        <div class="lado-direito-orcamento">
+            <h4>Solicite seu Orçamento</h4>
+            <p>Mais praticidade e agilidade no seu atendimento especializado, <br> venha também nos fazer uma visita e conhecer a loja.</p>
+            <section id="">
+                <form action="/orcamento" method="GET">
+                  <div class="dados-cliente-para-orcamento">
+                    <div class="container-orcamento">
+                        <input id="name" type="text" name="name" placeholder="Nome" required/>
+                    </div>
+                    <div class="container-orcamento">                   
+                        <input id="email" type="email" name="email" placeholder="E-mail" required/>
+                    </div>
+                    <div class="container-orcamento-impressao">
+                        <input id="phone" type="tel" name="phone" placeholder="Telefone"  required/>
+                    </div>
+                    <div><h5><strong>Número de Plotagens</strong></h5></div>
+                    <div class="impressão-a0">
+                        <div class="container-orcamento-quant-copia">
+                            <label for="number">A0:</label>
+                            <input id="phone" type="number" name="number" placeholder="0"  required/>
+                        </div>  
+                        <div class="tipo-impressao-1">
+                            <label for="">Impressão:</label>
+                            <select name="preferencia-impressao" class="impressao-a4-color-pb" 
+                          aria-required="true" aria-invalid="false">
+                          <option value="PB">PB</option><option value="Colorido">Colorido</option>
+                          </select>
+                        </div>
+                    </div>
+                    <div class="impressão-a0">
+                        <div class="container-orcamento-quant-copia">
+                            <label for="number">A1:</label>
+                            <input id="phone" type="number" name="number" placeholder="0"  required/>
+                        </div>  
+                        <div class="tipo-impressao-1">
+                            <label for="">Impressão:</label>
+                            <select name="preferencia-impressao" class="impressao-a4-color-pb" 
+                          aria-required="true" aria-invalid="false">
+                          <option value="PB">PB</option><option value="Colorido">Colorido</option>
+                          </select>
+                        </div>
+                    </div>
+                    <div class="impressão-a0">
+                        <div class="container-orcamento-quant-copia">
+                            <label for="number">A2:</label>
+                            <input id="phone" type="number" name="number" placeholder="0"  required/>
+                        </div>  
+                        <div class="tipo-impressao-1">
+                            <label for="">Impressão:</label>
+                            <select name="preferencia-impressao" class="impressao-a4-color-pb" 
+                          aria-required="true" aria-invalid="false">
+                          <option value="PB">PB</option><option value="Colorido">Colorido</option>
+                          </select>
+                        </div>
+                    </div>
+                    <div class="impressão-a0">
+                        <div class="container-orcamento-quant-copia">
+                            <label for="number">A3:</label>
+                            <input id="phone" type="number" name="number" placeholder="0"  required/>
+                        </div>  
+                        <div class="tipo-impressao-1">
+                            <label for="">Impressão:</label>
+                            <select name="preferencia-impressao" class="impressao-a4-color-pb" 
+                          aria-required="true" aria-invalid="false">
+                          <option value="PB">PB</option><option value="Colorido">Colorido</option>
+                          </select>
+                        </div>
+                    </div>
+
+                    <div class="digitalizacao-medida-personalizada">
+                        <h6><strong>Medida Personalizada:</strong></h6>
+                         <div class="medidas-dig">
+                            <div class="container-orcamento-digitalizacao">
+                                <label for="">Altura:</label>
+                                <input id="phone" type="number" name="number" placeholder="0"  required/>
+                            </div>
+                            <div class="container-orcamento-digitalizacao">
+                                <label for="">Largura:</label>
+                                <input id="phone" type="number" name="number" placeholder="0"  required/>
+                            </div>
+                         </div>
+                      </div>
+
+                      <div class="acabamento-plot">
+                        <h6><strong>Acabamento:</strong></h6>
+                      <select name="impressao-plot" class="impressao-plot" 
+                          aria-required="true" aria-invalid="false">
+                          <option value="Dobra">Dobra</option><option value="Enrola">Enrola</option>
+                      </select>
+                      </div>
+
+
+
+
+
+                  </div>
+
+                  <div class="enviar-arquivo-orcamento">
+                    <h5><strong>Envie seu arquivo:</strong></h5>
+                    <input type="file" value="Escolher Arquivo" />
+                  </div>
+                  <div class="descricao-detalhada-orcamento">
+                    <h5><strong>Se preferir descreva mais sobre a sua solicitação:</strong></h5>
+                    <input id="name" type="text" name="name" placeholder="" required/>
+                  </div>
+
+                  <div class="botao-enviar-oracamento"><input type="submit" value="ENVIAR" /></div>
+                  <div><p>Atendimento Especializado <br> (11) 994115609 <br> imagemcenter001@gmail.com</p></div>
+                </form>
+              </section>
+
+        </div>
+    </div>
+</body>
+</html>

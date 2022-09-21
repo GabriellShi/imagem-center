@@ -392,7 +392,7 @@ Pagina Impressão Orçamento */
 }
 
 .container-orcamento-quant-copia input {
-    width: 300px;
+    width: 400px;
     margin-right: 20px;
     margin-bottom: 20px;
 }
@@ -475,4 +475,79 @@ Pagina criação de arte */
 
 .tipos-de-arte1, .tipos-de-arte2 {
     margin-left: 20px;
+}
+
+
+/* -------------------------------------------------------------------------------------------------------
+Pagina Banner-Faixa Orçamento */
+
+.medida-faixa {
+    text-align: center;
+    margin-top: 40px;
+}
+
+
+/* ---------------------------------------------------------------------------------------------------------
+Pagina de Impressão de Projetos */
+
+.impressão-a0 {
+    display: flex;
+    justify-content: center;
+}
+
+.tipo-impressao-1 label, select {
+    display: block;
+}
+
+.acabamento-plot {
+    display: inline-block;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.acabamento-plot select {
+    width: 530px;
+    height: 40px;
+    border-radius: 15px;
+}
+
+
+/* ----------------------------------------------------------------------------------------------------------
+Pagina como chegar */
+
+.como-chegar {
+    display: flex;
+    justify-content: center;
+}
+
+.como-chegar-lado-esquerdo {
+    width: 50%;
+}
+
+.conteudo-lado-esquerdo {
+    padding: 60px;
+    padding-right: 20px;
+}
+
+.como-chegar-lado-direto {
+    width: 50%;
+    height: 600px;
+}
+
+.whats-localizacao {
+    display: flex;
+    justify-content: center;
+}
+
+.whats-preto {
+    text-align: center;
+    margin-right: 80px;
+}
+
+.localizacao-preto {
+    text-align: center;
+}
+
+.mapa {
+    margin-top: 50px;
 }
