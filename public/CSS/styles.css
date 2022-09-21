@@ -402,3 +402,21 @@ Pagina Impressão Orçamento */
     width: auto;
     height: 33px;
 }
+
+
+/* ------------------------------------------------------------------------------------------------------
+
+Pagina Encadernação Orçamento */
+
+.container-orcamento-encadernacao {
+        text-align: center;
+        margin-top: 30px;
+    }
+    
+.container-orcamento-encadernacao input {
+        line-height: 35px;
+        width: 80%;
+        border-radius: 15px;
+        border: 1;
+        color: black;
+    }
