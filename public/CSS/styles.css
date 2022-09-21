@@ -420,3 +420,40 @@ Pagina Encadernação Orçamento */
         border: 1;
         color: black;
     }
+
+/* ---------------------------------------------------------------------------------------------------------
+
+Pagina Digitalização Orçamento */
+
+.tipos-de-serviços-medida {
+    margin-left: 15px;
+}
+
+.digitalizacao-medida-personalizada {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.medidas-dig {
+    display: flex;
+    justify-content: center;
+}
+
+.container-orcamento-digitalizacao input {
+    margin-left: 20px;
+    border-radius: 15px;
+    width: 250px;
+    height: 40px;
+}
+
+.quant-digitalizacao {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.quant-digitalizacao input {
+    border-radius: 15px;
+    height: 40px;
+    width: 530px;
+    margin-left: 20px;
+}
