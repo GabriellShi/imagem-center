@@ -16,15 +16,13 @@
     <div class="img1-orcamento"></div>
     <div class="body-orcamento">
         <div class="lado-esquerdo-orcamento">
-                <div class="imagens-lado-esquerdo-orcamento-i">
+                <div class="imagens-lado-esquerdo-orcamento-copia">
                     <img src="/public/img/teste.jpg" alt="" height="250px">
                 </div>
-                <p>A JKX Print faz impressões de alta resolução em grandes e pequenas quantidades, com atendimento personalizado
-                     e muita experiência. Atendemos todo o público da região da consolação, as principais universidades de SP e 
-                     temos contratos com empresas de vários segmentos, arquitetura, engenharia, contabilidade, construtoras e 
-                     todo o comércio local. Somos uma Gráfica e Copiadora Rápida Completa, além de impressões fazemos: plotagem,
-                      impressões de grandes formatos, adesivos, banners, brindes e projetos personalizados.</p>
-
+                <p>A JKX Print também possui o serviço de copiadora completa, atendemos as principais
+                   universidades, empresas e profissionais da região zona oeste e sul de São Paulo.
+                    <br> <br> Nosso atendimento é rápido e entende a sua necessidade, trabalhamos com:</p>
+        
       </div>  
         <div class="lado-direito-orcamento">
             <h4>Solicite seu Orçamento</h4>
@@ -38,57 +36,25 @@
                     <div class="container-orcamento">                   
                         <input id="email" type="email" name="email" placeholder="E-mail" required/>
                     </div>
-                    <div class="container-orcamento">
+                    <div class="container-orcamento-impressao">
                         <input id="phone" type="tel" name="phone" placeholder="Telefone"  required/>
                     </div>
                     <div><h5><strong>Numero de Cópias</strong></h5></div>
                     <div class="container-orcamento-quant-copia">
-                      <input id="phone" type="number" name="number" placeholder="Telefone"  required/>
+                        <label for="number">A4:</label>
+                        <input id="phone" type="number" name="number" placeholder="0"  required/>
+                      <select name="preferencia-impressao" class="impressao-a4-color-pb" 
+                      aria-required="true" aria-invalid="false"><option value="PB">PB</option><option value="Colorido">Colorido</option>
+                      </select>
                   </div>
-                  </div>
+                  <div class="container-orcamento-quant-copia">
+                    <label for="number">A3:</label>
+                    <input id="phone" type="number" name="number" placeholder="0"  required/>
+                  <select name="preferencia-impressao" class="impressao-a4-color-pb" 
+                  aria-required="true" aria-invalid="false"><option value="PB">PB</option><option value="Colorido">Colorido</option>
+                  </select>
+              </div>
 
-                  <div class="servico-desejado-orcamento"> Selecione os Serviços que deseja:</div>
-                  <div class="servico-desejado-orcamento">Medidas:  </div>
-
-                  <div class="escolha-os-servicos-copia"> 
-
-                    <div class="servicos1-copia">
-                        <div class="tipos-de-serviços-medida">
-                            <label for="scales"> A3 </label>
-                            <input type="checkbox" id="scales" name="scales" checked>
-                          </div>
-                          <div class="tipos-de-serviços1-medida">  
-                            <label for="scales"> A4 </label>
-                            <input type="checkbox" id="scales" name="scales" checked>
-                          </div>
-                      </div>
-
-                      <div class="tipos-de-serviços1-tipos-de-copias"><strong>Tipos de Copias:</strong></div>
-                      <div class="servicos2-copia">                      
-                        
-                        <div class="bloco-tipo-copia-1">
-                          <div class="tipos-de-serviços1">
-                            <label for="scales"> Preto e Branco </label>
-                            <input type="checkbox" id="scales" name="scales" checked>
-                          </div>  
-                          <div class="tipos-de-serviços2">
-                            <label for="scales"> Colorido </label>
-                            <input type="checkbox" id="scales" name="scales" checked>
-                          </div>
-                        </div>
-
-                        <div class="bloco-tipo-copia-2">
-                          <div class="tipos-de-serviços3">
-                            <label for="scales"> Frente </label>
-                            <input type="checkbox" id="scales" name="scales" checked>
-                          </div>
-                          <div class="tipos-de-serviços4">
-                            <label for="scales"> Frente e Verso </label>
-                            <input type="checkbox" id="scales" name="scales" checked>
-                          </div>
-                        </div>  
-
-                      </div>
                   </div>
 
                   <div class="enviar-arquivo-orcamento">

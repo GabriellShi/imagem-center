@@ -381,3 +381,24 @@ Pagina Copia Orçamento */
 
 Pagina Impressão Orçamento */
 
+.container-orcamento-impressao {
+    margin-bottom: 40px;
+}
+
+.container-orcamento-quant-copia label {
+    display: flex;
+    justify-content: center;
+    
+}
+
+.container-orcamento-quant-copia input {
+    width: 300px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+.impressao-a4-color-pb {
+    border-radius: 30px;
+    width: auto;
+    height: 33px;
+}
