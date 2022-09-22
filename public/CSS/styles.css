@@ -6,6 +6,8 @@
     font-family: Helvetica, Arial, sans-serif;
 }
 
+
+
 .primeira-barra-cabecalho {
     display: flex;
     justify-content:center;
@@ -64,10 +66,6 @@
     text-align: center;  
 }
 
-.segunda-barra-pesquisa {
-    margin-top: 10px;
-}
-
 .segunda-barra-pesquisa input {
     width: 300px;
     position: relative;
@@ -78,41 +76,6 @@
     padding: 10px;
 }
 
-.terceira-barra-cabecalho {
-    background-color: blue;
-    height: 40px;
-    align-items:center;
-    color: white;
-    padding-top: 7px;
-}
-
-.terceira-barra-cabecalho ul {
-    display: flex;
-    color: white;
-    justify-content: center;
-    list-style:none;
-    font-size: 13px;
-    align-items: center;
-}
-
-.terceira-barra-cabecalho a {
-    text-decoration: none;
-    color: white;
-    padding-left: 10px;
-    padding-right: 10px;
-    align-items: center;
-    padding: 0px px;
-}
-
-
-.orçamento-menu {
-    border: 3px solid black;
-    border-radius: 55px;
-
-    margin-left: 40px;
-    font-size: 13px;
-    background-color: black;  
-}
 
 .icone-whats-absolute {
 
@@ -129,6 +92,7 @@
     display: flex;
     text-align: end;
 }
+
 
 .container-3 {
     display: flex;
@@ -205,6 +169,90 @@ footer {
     display: flex;
     margin-left: 30px;
 }
+
+/* ---------------------------------------------------------------------------------------------------------
+Menu DropDown */
+
+.dp-menu ul {
+    list-style-type: none;
+    padding: 0;
+    justify-content: center;
+    text-align: center;
+    z-index: 9;
+    margin-bottom: 0;
+    
+    
+}
+
+.dp-menu ul {
+    background-color: blue;
+}
+
+.dp-menu ul li {
+    display: inline;
+    position: relative;
+   
+    
+}
+
+.dp-menu ul li a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    display: inline-block;
+    padding: 5px;
+    font-weight: bold;
+    padding-left: 20px;
+    padding-right: 20px;
+    
+}
+
+.dp-menu ul li :hover {
+    color: white;
+    background-color: rgb(0, 0, 0);
+    
+}
+
+.dp-menu li li :hover {
+    color: rgb(3, 3, 3);
+    background-color: white;
+    
+}
+
+.dp-menu ul ul{
+    display: none;
+    left: 0;
+    position: absolute;
+
+}
+
+.dp-menu ul li:hover ul{
+    display: block;
+    background-color: white;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.dp-menu ul ul {
+    width: 220px;;
+}
+
+.dp-menu ul ul li a{
+    display: block;
+    color: rgb(91, 88, 88);
+    border-bottom: 1px dashed black;
+    padding-top: 10px;
+}
+
+.home-menu a{
+    color: white;
+    background-color: black;
+    
+}
+
+.dp-menu ul li.home-menu a {
+    color: antiquewhite;
+}
+
 
 /* ----------------------------------------------------------------------------------------------------- */
 
@@ -551,3 +599,4 @@ Pagina como chegar */
 .mapa {
     margin-top: 50px;
 }
+
