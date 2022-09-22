@@ -7,7 +7,7 @@ const orcamentosControlller = require('../controllers/orcamentosController');
 
 router.get("/orcamento", orcamentosControlller.index);
 
-router.get("/como-chegar", orcamentosControlller.viewComoChegar);
+router.get("/contato", orcamentosControlller.viewContato);
 
 router.get("/banner-faixa", orcamentosControlller.viewBannerFaixa);
 
@@ -24,5 +24,7 @@ router.get("/encadernacao", orcamentosControlller.viewEncadernacao);
 router.get("/impressao-projetos", orcamentosControlller.viewImpressaoProjetos);
 
 router.get("/impressao", orcamentosControlller.viewImpressao);
+
+router.get("/plastificacao", orcamentosControlller.viewPlastificacao);
 
 module.exports = router;

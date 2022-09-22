@@ -6,8 +6,8 @@ const orcamentosController = {
         return res.render("orcamento", {title: "Orçamento", user: req.cookies.user,})
     },
 
-    viewComoChegar: (req, res) => {
-        res.render('como-chegar', { title: "Como Chegar", user: req.cookies.user, });
+    viewContato: (req, res) => {
+        res.render('contato', { title: "Contato", user: req.cookies.user, });
     },
 
     viewBannerFaixa: (req, res) => {
@@ -41,6 +41,12 @@ const orcamentosController = {
     viewImpressao: (req, res) => {
         res.render('impressao', { title: "Orçamento de Impressão", user: req.cookies.user, });
     },
+
+    viewPlastificacao: (req, res) => {
+        res.render('plastificacao', { title: "Orçamento de Plastificação", user: req.cookies.user, });
+    },
+    
+
     
 
 };
