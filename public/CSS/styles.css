@@ -35,7 +35,6 @@
     display:flex;
     font-family: "Lato", sans-serif;
     font-size: 17px;
-    font-weight: bolder;
     letter-spacing: .05em;
 }
 
@@ -69,7 +68,8 @@
 .segunda-barra-pesquisa input {
     width: 300px;
     position: relative;
-    left: 10px;
+    left: 7px;
+
 }
 
 .instagram-facebook-rabecalho {
@@ -121,7 +121,7 @@
 .container-4 {
     display: flex;
     text-align: center;
-    margin-top: 20px;
+    margin-top: 60px;
     margin-bottom: 20px;
 }
 
@@ -136,15 +136,20 @@
 }
 
 .container-4-direito {
-    margin-right: 20px;
+    margin-right: 40px;
     margin-left: 10px;
+}
+
+.container-5 {
+    background-color: blueviolet;
+    height: 400px;
 }
 
 footer {
     background-color: black;
     height: 350px;
     color: white;
-    margin-top: 100px;
+    margin-top: 60px;
     margin-bottom: 0;
 }
 
@@ -185,8 +190,6 @@ Menu DropDown */
     text-align: center;
     z-index: 9;
     margin-bottom: 0;
-    
-    
 }
 
 .dp-menu ul {
@@ -196,12 +199,10 @@ Menu DropDown */
 .dp-menu ul li {
     display: inline;
     position: relative;
-   
-    
 }
 
 .dp-menu ul li a {
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     text-decoration: none;
     display: inline-block;
     padding: 5px;
@@ -238,7 +239,7 @@ Menu DropDown */
 }
 
 .dp-menu ul ul {
-    width: 220px;;
+    width: 250px;;
 }
 
 .dp-menu ul ul li a{
@@ -246,6 +247,7 @@ Menu DropDown */
     color: rgb(91, 88, 88);
     border-bottom: 1px dashed black;
     padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 .home-menu a{
@@ -270,14 +272,10 @@ Menu DropDown */
     height: 230px;
 }
 
-.img1-orcamento {
-    background-color: aqua;
-    height: 162px;
-}
-
 .body-orcamento {
     display: flex;
     padding: 20px;
+    padding-top: 0;
 }
 
 .lado-esquerdo-orcamento {
@@ -605,3 +603,19 @@ Pagina como chegar */
     margin-top: 50px;
 }
 
+
+.titulo-orcamento {
+    margin-left: 270px;
+    font-weight: bolder;
+    position: relative;
+    bottom: 45px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+.titulo-orcamento-arte {
+    margin-left: 200px;
+    font-weight: bolder;
+    position: relative;
+    bottom: 45px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
