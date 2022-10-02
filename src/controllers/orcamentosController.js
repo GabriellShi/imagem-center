@@ -10,8 +10,8 @@ const orcamentosController = {
         res.render('contato', { title: "Contato", user: req.cookies.user, });
     },
 
-    viewBannerFaixa: (req, res) => {
-        res.render('banner-faixa', { title: "Orçamento Banner e Faixa", user: req.cookies.user, });
+    viewBanner: (req, res) => {
+        res.render('banner', { title: "Orçamento Banner ", user: req.cookies.user, });
     },
 
     viewCopiaProjetos: (req, res) => {
@@ -44,6 +44,10 @@ const orcamentosController = {
 
     viewPlastificacao: (req, res) => {
         res.render('plastificacao', { title: "Orçamento de Plastificação", user: req.cookies.user, });
+    },
+
+    viewThanks: (req, res) => {
+        res.render('thanks', { title: "Pagina de Obrigado pelo Contato", user: req.cookies.user, });
     },
     
 

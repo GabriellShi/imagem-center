@@ -6,8 +6,10 @@ const path = require("path");
 const session = require("express-session");
 const cookieParser = require("cookie-parser");
 
+
 const indexRoute = require('./src/routes/indexRoute');
 const orcamentosRoute = require('./src/routes/orcamentosRoute');
+
 
 // Configura o methodOverride no express
 // methodOverride = Pacote que transforma um método http em outro
@@ -15,8 +17,7 @@ const orcamentosRoute = require('./src/routes/orcamentosRoute');
 app.use(methodOverride("_method"));
 // Converter corpo da requisição (body) em objeto literal
 app.use(express.json());
-// Converte requisição para formato que o json aceita
-app.use(express.urlencoded({ extended: false }));
+
 
 app.use(cookieParser());
 app.use(session({
@@ -24,6 +25,8 @@ app.use(session({
   resave: true,
   saveUninitialized: true,
 }));
+
+
 
 // Configura pasta estática para acesso externo
 app.use(express.static(path.join(__dirname, "public")));

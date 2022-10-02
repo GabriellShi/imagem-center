@@ -9,7 +9,7 @@ router.get("/orcamento", orcamentosControlller.index);
 
 router.get("/contato", orcamentosControlller.viewContato);
 
-router.get("/banner-faixa", orcamentosControlller.viewBannerFaixa);
+router.get("/banner", orcamentosControlller.viewBanner);
 
 router.get("/copia-projetos", orcamentosControlller.viewCopiaProjetos);
 
@@ -26,5 +26,7 @@ router.get("/impressao-projetos", orcamentosControlller.viewImpressaoProjetos);
 router.get("/impressao", orcamentosControlller.viewImpressao);
 
 router.get("/plastificacao", orcamentosControlller.viewPlastificacao);
+
+router.get("/thanks", orcamentosControlller.viewThanks);
 
 module.exports = router;

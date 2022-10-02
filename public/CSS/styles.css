@@ -7,7 +7,6 @@
 }
 
 
-
 .primeira-barra-cabecalho {
     display: flex;
     justify-content:center;
@@ -20,6 +19,7 @@
     letter-spacing: .05em;
     text-decoration: none;
     text-transform: none;
+    margin-bottom: 20px;
 }
 
 .primeira-barra-cabecalho-text2{
@@ -122,12 +122,14 @@
     display: flex;
     text-align: center;
     margin-top: 60px;
-    margin-bottom: 20px;
+    margin-bottom: 80px;
 }
 
 .container-4-esquerdo {
-    margin: 85px;
+    padding-left: 100px;
+    padding-right: 100px;
     text-align: justify;
+
 }
 
 .container-4-esquerdo h2 {
@@ -136,7 +138,7 @@
 }
 
 .container-4-direito {
-    margin-right: 40px;
+    margin-right: 80px;
     margin-left: 10px;
 }
 
@@ -144,7 +146,6 @@ footer {
     background-color: black;
     height: 350px;
     color: white;
-    margin-top: 60px;
     margin-bottom: 0;
 }
 
@@ -613,4 +614,32 @@ Pagina como chegar */
     position: relative;
     bottom: 45px;
     font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+/* Pagina Thanks
+------------------------------------------------------------------------------- */
+
+.main-thaks {
+    background-color: rgb(255, 255, 255);
+}
+
+.thanks-h1, .thanks-h2 {
+    display: flex;
+    justify-content: center;
+    color: rgb(0, 0, 0);
+}
+
+.thanks-h1 {
+    margin-top: 70px;
+}
+
+.thanks-h2 {
+    margin-bottom: 100px;
+}
+
+.img-thanks {
+    display: flex;
+    justify-content: center;
+    padding-top: 80px;
+
 }

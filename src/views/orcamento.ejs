@@ -1,6 +1,6 @@
 <%- include("./partials/head") %>
   <%- include("./partials/header") %>
-
+  
     <div class="img1-orcamento"><img src="../../img/img-fundo-header-site.jpg" alt="" height="160px" width="100%"></div>
     <h2 class="titulo-orcamento">Orçamento</h2>
     <div class="body-orcamento">
@@ -29,16 +29,16 @@
             <h4>Solicite seu Orçamento</h4>
             <p>Mais praticidade e agilidade no seu atendimento especializado, <br> venha também nos fazer uma visita e conhecer a loja.</p>
             <section id="">
-                <form action="/orcamento" method="GET">
+                <form action="https://formsubmit.co/gabrieloliveirasantos169@gmail.com"f method="POST">
                   <div class="dados-cliente-para-orcamento">
                     <div class="container-orcamento">
-                        <input id="name" type="text" name="name" placeholder="Nome" required/>
+                        <input id="name" type="text" name="nome" placeholder="Nome" required/>
                     </div>
                     <div class="container-orcamento">                   
                         <input id="email" type="email" name="email" placeholder="E-mail" required/>
                     </div>
                     <div class="container-orcamento">
-                        <input id="phone" type="tel" name="phone" placeholder="Telefone"  required/>
+                        <input id="phone" type="tel" name="Telefone" placeholder="Telefone"  required/>
                     </div>
                   </div>
 
@@ -49,60 +49,58 @@
                     <div class="servicos1">
                         <div class="tipos-de-serviços1">
                             <label for="scales"> Impressões </label>
-                            <input type="checkbox" id="scales" name="scales" checked>
+                            <input type="checkbox" id="scales" name="Impressão-Select" checked>
                           </div>
                           <div class="tipos-de-serviços1">
                             <label for="scales"> Plotagem </label>
-                            <input type="checkbox" id="scales" name="scales" checked>
+                            <input type="checkbox" id="scales" name="Plotagem-Select" checked>
                           </div>
                           <div class="tipos-de-serviços1">
                             <label for="scales"> Encadernação </label>
-                            <input type="checkbox" id="scales" name="scales" checked>
+                            <input type="checkbox" id="scales" name="Encadernação-Select" checked>
                           </div>
                           <div class="tipos-de-serviços1">
                             <label for="scales"> Fotos </label>
-                            <input type="checkbox" id="scales" name="scales" checked>
+                            <input type="checkbox" id="scales" name="Fotos-Select" checked>
                           </div>
                       </div>
     
                       <div class="servicos2">
                         <div class="tipos-de-serviços2">
                             <label for="scales"> Copias </label>
-                            <input type="checkbox" id="scales" name="scales" checked>
+                            <input type="checkbox" id="scales" name="Copias-Select" checked>
                           </div>
                           <div class="tipos-de-serviços2">
                             <label for="scales"> Banner </label>
-                            <input type="checkbox" id="scales" name="scales" checked>
+                            <input type="checkbox" id="scales" name="Banner-Select" checked>
                           </div>
                           <div class="tipos-de-serviços2">
                             <label for="scales"> Plastificação </label>
-                            <input type="checkbox" id="scales" name="scales" checked>
+                            <input type="checkbox" id="scales" name="PLastificação-Select" checked>
                           </div>
                           <div class="tipos-de-serviços2">
                             <label for="scales"> Digitalização </label>
-                            <input type="checkbox" id="scales" name="scales" checked>
+                            <input type="checkbox" id="scales" name="Digitalização-Select" checked>
                           </div>
                       </div>
                   </div>
 
                   <div class="enviar-arquivo-orcamento">
                     <h5><strong>Envie seu arquivo:</strong></h5>
-                    <input type="file" value="Escolher Arquivo" />
+                    <input type="file" name="Envio de Arquivo" value="Escolher Arquivo" />
                   </div>
                   <div class="descricao-detalhada-orcamento">
                     <h5><strong>Se preferir descreva mais sobre a sua solicitação:</strong></h5>
-                    <input id="name" type="text" name="name" placeholder="" required/>
+                    <input id="name" type="text" name="descricao" placeholder="" required/>
                   </div>
 
-                  <div class="botao-enviar-oracamento"><input type="submit" value="ENVIAR" /></div>
                   <div><p>Atendimento Especializado <br> (11) 994115609 <br> imagemcenter001@gmail.com</p></div>
+                  <input type="hidden" name="_next" value="http://localhost:3001/thanks">
+                  <div class="botao-enviar-oracamento"><input type="submit" value="ENVIAR" /></div>
                 </form>
               </section>
-              <section class="container-1">
-                <div class="icone-whats-absolute">
-                 <a href="https://api.whatsapp.com/send?phone=5511994115609&text=Ol%C3%A1%2C%20gostaria%20de
-                 %20mais%20informa%C3%A7%C3%B5es%20sobre"> <img src="/../../img/whats-logo.png" alt="WhatsApp" height="60px"></a>
-                </div>
+              <section class="container-1">   
+  
               </section>
         </div>
         
