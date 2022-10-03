@@ -30,16 +30,16 @@
             <h4>Solicite seu Orçamento com nosso Parceiro</h4>
             <p>Mais praticidade e agilidade no seu atendimento especializado, <br> venha também nos fazer uma visita e conhecer a loja.</p>
             <section id="">
-                <form action="/orcamento" method="GET">
-                  <div class="dados-cliente-para-orcamento">
+              <form action="https://formsubmit.co/contatogdesigneronline@gmail.com"f method="POST" enctype="multipart/form-data">
+                <div class="dados-cliente-para-orcamento">
                     <div class="container-orcamento">
-                        <input id="name" type="text" name="name" placeholder="Nome" required/>
+                        <input id="name" type="text" name="Name" placeholder="Nome" required/>
                     </div>
                     <div class="container-orcamento">                   
-                        <input id="email" type="email" name="email" placeholder="E-mail" required/>
+                        <input id="email" type="email" name="Email" placeholder="E-mail" required/>
                     </div>
                     <div class="container-orcamento">
-                        <input id="phone" type="tel" name="phone" placeholder="Telefone"  required/>
+                        <input id="phone" type="tel" name="Telefone" placeholder="Telefone"  required/>
                     </div>
 
                   </div>
@@ -56,37 +56,37 @@
                             <div class="tipos-de-serviços-arte1">
                                 <div class="tipos-de-arte1">
                                 <label for="scales"> Cartão de Visita </label>
-                                <input type="checkbox" id="scales" name="scales" checked>
+                                <input type="checkbox" id="scales" name="Cartão_de_Visita">
                               </div>
                               <div class="tipos-de-arte1">
                                 <label for="scales"> Cardápio </label>
-                                <input type="checkbox" id="scales" name="scales" checked>
+                                <input type="checkbox" id="scales" name="Cardápio">
                               </div>
                               <div class="tipos-de-arte1">
                                 <label for="scales"> Cartaz </label>
-                                <input type="checkbox" id="scales" name="scales" checked>
+                                <input type="checkbox" id="scales" name="Cartaz">
                               </div>
                               <div class="tipos-de-arte1">
                                 <label for="scales"> Adesivo </label>
-                                <input type="checkbox" id="scales" name="scales" checked>
+                                <input type="checkbox" id="scales" name="Adesivo">
                               </div></div>
 
                             <div class="tipos-de-serviços-arte2">
                                 <div class="tipos-de-arte2">
                                     <label for="scales"> Banner </label>
-                                    <input type="checkbox" id="scales" name="scales" checked>
+                                    <input type="checkbox" id="scales" name="Banner">
                                   </div>
                                   <div class="tipos-de-arte2">  
                                     <label for="scales"> Flyer </label>
-                                    <input type="checkbox" id="scales" name="scales" checked>
+                                    <input type="checkbox" id="scales" name="Flyer">
                                   </div>
                                   <div class="tipos-de-arte2">
                                     <label for="scales"> Folder </label>
-                                    <input type="checkbox" id="scales" name="scales" checked>
+                                    <input type="checkbox" id="scales" name="Folder">
                                   </div>
                                   <div class="tipos-de-arte2">  
                                     <label for="scales"> Faixa </label>
-                                    <input type="checkbox" id="scales" name="scales" checked>
+                                    <input type="checkbox" id="scales" name="Faixa">
                                   </div>
                             </div>
                               
@@ -94,24 +94,32 @@
                               <div>
                                 <div class="tipos-de-serviços-arte3">
                                     <label for="scales"> Outros </label>
-                                    <input type="checkbox" id="scales" name="scales" checked>
+                                    <input type="checkbox" id="scales" name="Outros">
                                   </div>
                               </div>
                           </div>
                       </div>
                         </div>
 
+                        <input type="hidden" name="_template" value="table">
+                        <input type="hidden" name="_subject" value="Orçamento">
+                        <input type="hidden" name="_captcha" value="false">
+                        <input type="hidden" name="_next" value="http://localhost:3001/thanks">
+      
+
                   <div class="enviar-arquivo-orcamento">
                     <h5><strong>Envie seu arquivo:</strong></h5>
-                    <input type="file" value="Escolher Arquivo" />
+                    <input type="file" name="Arquivo" accept="image/png, image/jpeg, .pdf, .docx, .cdr, .xlsx, .dwg, .dwf">
                   </div>
                   <div class="descricao-detalhada-orcamento">
                     <h5><strong>Se preferir descreva mais sobre a sua solicitação:</strong></h5>
-                    <input id="name" type="textarea" name="name" placeholder="" required/>
+                    <input id="name" type="text" name="Mensagem" placeholder="Descreva seu serviço" />
                   </div>
 
-                  <div class="botao-enviar-oracamento"><input type="submit" value="ENVIAR" /></div>
-                  <div><p>Atendimento Especializado <br> (11) 976497012 <br> contatogdesigneronline@gmail.com</p></div>
+                  <div><p>Atendimento Especializado <br> (11) 994115609 <br> imagemcenter001@gmail.com</p></div>
+                  <div class="fim-orcamento"><a href="https://api.whatsapp.com/send?phone=5511994115609&text=Ol%C3%A1%2C%20gostaria%20de
+                   %20mais%20informa%C3%A7%C3%B5es%20sobre"><img src="../../img/logo-whats-preto.png" alt="Logo Whats Preto" height="50px"></a></div>
+                   <div class="botao-enviar-oracamento"><input type="submit" value="ENVIAR" /></div>
                 </form>
               </section>
 

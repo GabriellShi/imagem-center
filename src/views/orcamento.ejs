@@ -29,18 +29,23 @@
             <h4>Solicite seu Orçamento</h4>
             <p>Mais praticidade e agilidade no seu atendimento especializado, <br> venha também nos fazer uma visita e conhecer a loja.</p>
             <section id="">
-                <form action="https://formsubmit.co/gabrieloliveirasantos169@gmail.com"f method="POST">
-                  <div class="dados-cliente-para-orcamento">
+                 <form action="https://formsubmit.co/gabrieloliveirasantos169@gmail.com"f method="POST" enctype="multipart/form-data">
+          
+                <div class="dados-cliente-para-orcamento">
                     <div class="container-orcamento">
-                        <input id="name" type="text" name="nome" placeholder="Nome" required/>
+                        <input id="name" type="text" name="Name" placeholder="Nome" required/>
                     </div>
-                    <div class="container-orcamento">                   
-                        <input id="email" type="email" name="email" placeholder="E-mail" required/>
+                    <div class="container-orcamento">   
+                      <input type="email" name="Email" placeholder="E-mail" required>
                     </div>
                     <div class="container-orcamento">
                         <input id="phone" type="tel" name="Telefone" placeholder="Telefone"  required/>
                     </div>
                   </div>
+
+                    <input type="hidden" name="_template" value="table">
+                    <input type="hidden" name="_subject" value="Orçamento">
+                    <input type="hidden" name="_captcha" value="false">
 
                   <div class="servico-desejado-orcamento"> Selecione os Serviços que deseja:</div>
 
@@ -49,58 +54,59 @@
                     <div class="servicos1">
                         <div class="tipos-de-serviços1">
                             <label for="scales"> Impressões </label>
-                            <input type="checkbox" id="scales" name="Impressão-Select" checked>
+                            <input type="checkbox" id="scales" name="Impressão" >
                           </div>
                           <div class="tipos-de-serviços1">
                             <label for="scales"> Plotagem </label>
-                            <input type="checkbox" id="scales" name="Plotagem-Select" checked>
+                            <input type="checkbox" id="scales" name="Plotagem" >
                           </div>
                           <div class="tipos-de-serviços1">
                             <label for="scales"> Encadernação </label>
-                            <input type="checkbox" id="scales" name="Encadernação-Select" checked>
+                            <input type="checkbox" id="scales" name="Encadernação" >
                           </div>
                           <div class="tipos-de-serviços1">
                             <label for="scales"> Fotos </label>
-                            <input type="checkbox" id="scales" name="Fotos-Select" checked>
+                            <input type="checkbox" id="scales" name="Fotos" >
                           </div>
                       </div>
     
                       <div class="servicos2">
                         <div class="tipos-de-serviços2">
                             <label for="scales"> Copias </label>
-                            <input type="checkbox" id="scales" name="Copias-Select" checked>
+                            <input type="checkbox" id="scales" name="Copias" >
                           </div>
                           <div class="tipos-de-serviços2">
                             <label for="scales"> Banner </label>
-                            <input type="checkbox" id="scales" name="Banner-Select" checked>
+                            <input type="checkbox" id="scales" name="Banner" >
                           </div>
                           <div class="tipos-de-serviços2">
                             <label for="scales"> Plastificação </label>
-                            <input type="checkbox" id="scales" name="PLastificação-Select" checked>
+                            <input type="checkbox" id="scales" name="Plastificação" >
                           </div>
                           <div class="tipos-de-serviços2">
                             <label for="scales"> Digitalização </label>
-                            <input type="checkbox" id="scales" name="Digitalização-Select" checked>
+                            <input type="checkbox" id="scales" name="Digitalização" >
                           </div>
                       </div>
                   </div>
 
                   <div class="enviar-arquivo-orcamento">
                     <h5><strong>Envie seu arquivo:</strong></h5>
-                    <input type="file" name="Envio de Arquivo" value="Escolher Arquivo" />
+                    <input type="file" name="Arquivo" accept="image/png, image/jpeg, .pdf, .docx, .cdr, .xlsx, .dwg, .dwf">
                   </div>
                   <div class="descricao-detalhada-orcamento">
                     <h5><strong>Se preferir descreva mais sobre a sua solicitação:</strong></h5>
-                    <input id="name" type="text" name="descricao" placeholder="" required/>
+                    <input id="name" type="text" name="Mensagem" placeholder="" />
                   </div>
 
+
                   <div><p>Atendimento Especializado <br> (11) 994115609 <br> imagemcenter001@gmail.com</p></div>
+                  <div class="fim-orcamento"><a href="https://api.whatsapp.com/send?phone=5511994115609&text=Ol%C3%A1%2C%20gostaria%20de
+                    %20mais%20informa%C3%A7%C3%B5es%20sobre"><img src="../../img/logo-whats-preto.png" alt="Logo Whats Preto" height="50px"></a></div>
                   <input type="hidden" name="_next" value="http://localhost:3001/thanks">
                   <div class="botao-enviar-oracamento"><input type="submit" value="ENVIAR" /></div>
+
                 </form>
-              </section>
-              <section class="container-1">   
-  
               </section>
         </div>
         

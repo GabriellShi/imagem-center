@@ -7,6 +7,7 @@
 }
 
 
+
 .primeira-barra-cabecalho {
     display: flex;
     justify-content:center;
@@ -79,13 +80,13 @@
 
 .icone-whats-absolute {
 
-    left: 10px;
+    right: 5px;
     z-index: 20;
     flex: content;
     flex-wrap: nowrap;
     position: fixed;
     bottom: 4%;
-    right: 2%;
+
 }
 
 .container-1 {
@@ -379,6 +380,19 @@ Menu DropDown */
 
 }
 
+.fim-orcamento {
+    display: flex;
+    justify-content: center;
+
+}
+
+.digitalizacao-medida-personalizada label{
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    padding-top: 15px;
+}
+
 /* ------------------------------------------------------------------------------------------
 
 Pagina Copia Orçamento */
@@ -629,17 +643,26 @@ Pagina como chegar */
     color: rgb(0, 0, 0);
 }
 
-.thanks-h1 {
-    margin-top: 70px;
-}
-
 .thanks-h2 {
-    margin-bottom: 100px;
+    margin-bottom: px;
 }
 
 .img-thanks {
     display: flex;
     justify-content: center;
-    padding-top: 80px;
+}
 
+.button-pagina-inicial{
+    display: flex;
+    justify-content: center;
+}
+
+.button-pagina-inicial button{
+    background-color: blue;
+    color: white;
+    border: 0;
+    padding: 5px;
+    border-radius: 7px;
+    margin-bottom: 20px;
+    width: 200px;
 }
