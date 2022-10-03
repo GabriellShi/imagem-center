@@ -70,7 +70,11 @@
     width: 300px;
     position: relative;
     left: 7px;
+    top: 1px;
+}
 
+.segunda-barra-pesquisa button {
+    border: 1px solid rgb(69, 68, 68);
 }
 
 .instagram-facebook-rabecalho {
@@ -355,7 +359,7 @@ Menu DropDown */
     text-align: center;
 }
 
-.descricao-detalhada-orcamento input {
+.descricao-detalhada-orcamento textarea {
     width: 400px;
     height: 200px;
     border-radius: 13px;
@@ -666,3 +670,9 @@ Pagina como chegar */
     margin-bottom: 20px;
     width: 200px;
 }
+
+.placeholder-text::placeholder {
+    padding: 5px;
+
+}
+
